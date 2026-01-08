@@ -193,13 +193,31 @@
         }
 
         /* Responsive design */
+        @media (max-width: 1024px) {
+            .container {
+                max-width: 90%;
+                padding: 15px;
+            }
+
+            .message-box {
+                padding: 30px 25px;
+            }
+        }
+
         @media (max-width: 768px) {
             .main-title {
                 font-size: 36px;
+                margin-bottom: 20px;
             }
 
             .message-text {
                 font-size: 18px;
+                line-height: 1.6;
+            }
+
+            .message-box {
+                padding: 25px 20px;
+                margin-bottom: 20px;
             }
 
             .question-button {
@@ -210,6 +228,109 @@
             .heart-top-left,
             .heart-top-right {
                 font-size: 40px;
+            }
+
+            .pink-bar {
+                width: 150px;
+                top: 80px;
+            }
+
+            .location-text {
+                font-size: 14px;
+            }
+
+            .bottom-message {
+                font-size: 16px;
+                margin-top: 20px;
+            }
+
+            .heart-icon {
+                font-size: 24px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .main-title {
+                font-size: 28px;
+                margin-bottom: 15px;
+            }
+
+            .message-text {
+                font-size: 16px;
+                line-height: 1.5;
+            }
+
+            .message-box {
+                padding: 20px 15px;
+                margin-bottom: 15px;
+            }
+
+            .question-button {
+                font-size: 14px;
+                padding: 12px 15px;
+            }
+
+            .heart-top-left,
+            .heart-top-right {
+                font-size: 30px;
+                top: 10px;
+            }
+
+            .heart-top-left {
+                left: 10px;
+            }
+
+            .heart-top-right {
+                right: 10px;
+            }
+
+            .pink-bar {
+                width: 120px;
+                top: 60px;
+            }
+
+            .location-text {
+                font-size: 12px;
+                flex-wrap: wrap;
+            }
+
+            .bottom-message {
+                font-size: 14px;
+                margin-top: 15px;
+                padding: 0 10px;
+            }
+
+            .heart-icon {
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+
+            .container {
+                padding: 10px;
+            }
+
+            .background-image {
+                filter: blur(4px);
+                transform: scale(1.03);
+            }
+        }
+
+        @media (max-width: 360px) {
+            .main-title {
+                font-size: 24px;
+            }
+
+            .message-text {
+                font-size: 14px;
+            }
+
+            .question-button {
+                font-size: 13px;
+                padding: 10px 12px;
+            }
+
+            .message-box {
+                padding: 15px 12px;
             }
         }
     </style>
